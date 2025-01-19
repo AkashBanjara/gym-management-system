@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 // const __dirname = path.resolve()
 
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"https://gym-management-system-cgq5.onrender.com",
   credentials:true
 }))
 app.use(cookieParser());
